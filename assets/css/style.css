@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: "Roboto", sans-serif;
+}
+
+#nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+}
+
+#logo {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+#logo img {
+  width: 60px;
+}
+
+#card {
+  width: 50%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+
+#estadisticas {
+  width: auto;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+
+#datos {
+  width: 100vh;
+  height: auto;
+} */
+
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+#nav {
+  background-color: #333;
+  color: #fff;
+}
+
+#logo img {
+  width: 60px;
+  height: auto;
+}
+#btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid transparent; 
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+#btn:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+}
+
+#btn2 {
+  display: block;
+  margin: 0 auto;
+  background-color: #5d22ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btn2:hover {
+  background-color: #2a0077;
+}
+
+#input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+#estadisticas {
+  width: 100%;
+  height: 300px;
+}
+
+/* se centra el contenido */
+#hero {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
