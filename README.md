@@ -1,5 +1,5 @@
 Hi there!
-In this project, you can search for various characters from your favorite superhero. Enjoy
+In this project, you can search for various characters from your favorite superhero. Enjoy! 
 
 #ID	Chracter Name
 1	A-Bomb
